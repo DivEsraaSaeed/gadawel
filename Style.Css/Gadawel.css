@@ -1,0 +1,332 @@
+:root {
+    /* --light-color: #D9D9D9; */
+    --dark-color: #eba028;
+
+
+}
+
+* {
+    direction: rtl !important;
+}
+
+/* Start-Nav */
+.navbar {
+    background-color: #143462;
+    /* opacity: 0.8; */
+    font-family: cairo;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--dark-color);
+
+}
+
+li {
+    display: inline;
+    margin: 2px;
+    /* padding: 10px; */
+}
+
+.navbar img {
+    /* margin: 2px; */
+    /* padding: 10px; */
+}
+
+.navbar .nav-item {
+    color: #fff;
+}
+
+.navbar .collapse .btn-nav1,
+.btn-nav2 {
+    background-color: #143462;
+    border: #ffffff solid 2px !important;
+    color: #fff;
+    /* margin-left: 10px; */
+    /* padding: 8px 16px; */
+    border-radius: 4px;
+    border: 1.2px;
+    opacity: 0px;
+
+}
+
+.navbar .collapse .btn-nav1.active,
+.navbar .collapse .btn-nav1:focus,
+.navbar .collapse .btn-nav1:hover {
+    border-color: #F0A202 !important;
+    background-color: #F0A202;
+}
+
+.navbar .collapse .btn-nav2.active,
+.navbar .collapse .btn-nav2:focus,
+.navbar .collapse .btn-nav2:hover {
+    border-color: #F0A202 !important;
+    background-color: #F0A202;
+}
+
+.navbar .container svg,
+span {
+    margin-right: 20px;
+    color: #fff;
+}
+
+/* LANDING */
+.landing {
+    background-image: url("./images/Mask Group.png");
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: linear-gradient(180deg, rgba(25, 65, 126, 0.8) 44.79%, rgba(56, 162, 249, 0.8) 100%); */
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.landing .iconholder h1 {
+    font-family: Cairo;
+    /* font-size: 40px; */
+    font-weight: 700;
+    /* line-height: 78.72px; */
+    /* letter-spacing: 0.02em; */
+    /* text-align: start; */
+    color: #fff;
+
+}
+
+.landing .iconholder p {
+    font-family: Cairo;
+    /* font-size: 16px; */
+    font-weight: 400;
+    /* line-height: 32.8px; */
+    /* letter-spacing: 0.02em; */
+    /* text-align: start; */
+    color: #fff;
+}
+
+.landing .iconholder .btn-land1,
+.btn-land2 {
+    /* padding: 14px 28px; */
+    /* border-radius: 6px; */
+    border: 1px solid #eba028;
+    /* background: none; */
+    color: #eba028;
+    font-family: Cairo;
+    /* font-size: 20px; */
+    font-weight: 400;
+    /* line-height: 30px; */
+    /* text-align: left; */
+    /* margin: 10px; */
+
+}
+
+.landing .iconholder button.active,
+.landing .iconholder button:focus,
+.landing .iconholder button:hover {
+    border-color: #F0A202 !important;
+    background-color: #F0A202;
+    color: #fff;
+}
+
+/* LANDING */
+
+
+/* Features  */
+.Features h1 {
+    font-family: Cairo;
+    /* font-size: 35px; */
+    font-weight: 700;
+    /* line-height: 91.84px; */
+    /* letter-spacing: 0.04em; */
+    text-align: center;
+    color: #0E397B;
+}
+
+.Features p {
+    font-family: Cairo;
+    /* font-size: 28px; */
+    font-weight: 500;
+    /* line-height: 45.92px; */
+    /* letter-spacing: 0.01em; */
+    text-align: center;
+    color: #637381;
+
+}
+
+.Features .features-item h5 {
+    font-family: Cairo;
+    /* font-size: 14px; */
+    font-weight: 600;
+    /* line-height: 46.25px; */
+    /* letter-spacing: 0.01em; */
+    text-align: right;
+    color: #162522;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.Features .features-item p {
+    font-family: Cairo;
+    font-weight: 500;
+    text-align: right;
+    color: #637381;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Features .features-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* Features */
+
+/* report */
+.report .iconholder h5 ,
+.report .iconholder .rebort-heed {
+    font-family: Cairo;
+    font-weight: 700;
+    color: #0E397B;
+
+}
+
+.report .iconholder .rebort-heed {
+    font-weight: 800;
+}
+
+.report .iconholder p {
+    font-family: Cairo;
+    color: #96A7C1;
+}
+
+.report .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* report */
+/* system */
+.system {
+    background-image: url("./images/back4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.system .iconholder  {
+    position: relative;
+}
+.system .iconholder img {
+    width: 300px;
+    height: 370px;
+    object-fit: contain;
+}
+.system .iconholder .img-ovarlay {
+    position: absolute;
+    top: 80px;
+    right: 145px;
+    object-fit: contain;
+}
+
+.system .iconholder h1 {
+    font-family: Cairo;
+    /* color: #fff; */
+}
+
+.system .iconholder .text-contain {
+}
+.system .iconholder .text-contain .text-ds {
+    padding-right: 15px;
+    position: relative;
+}
+.system .iconholder .text-contain .text-ds::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: 50%;
+    right: 0;
+    transform: translate(0,-50%);
+}
+@media (max-width:768px) {
+    .system .iconholder img {
+        width: 230px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+@media (max-width:768px) {
+    .system .iconholder .img-ovarlay {
+       display: none;
+    }
+    .system .iconholder img {
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+    }
+    .system .iconholder .heding {
+        font-size: 18px !important;
+    }
+    .system .iconholder .text-contain .text-ds {
+        font-size: 14px;
+    }
+}
+/* system */
+
+/* Section_4 */
+.digital {
+    background-image: url(./images/Background44.png);
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.digital .iconholder h1 {
+    font-family: Cairo;
+    /* font-size: 40px; */
+    font-weight: 600;
+    /* letter-spacing: 0.01em; */
+    text-align: right;
+    color: #0E397B;
+    /* margin-top: 50px; */
+    /* margin-bottom: 25px; */
+}
+
+.digital .iconholder p {
+    font-family: Cairo;
+    /* font-size: 20px; */
+    /* font-weight: 500; */
+    /* line-height: 56px; */
+    text-align: right;
+    color: #7A7A7AD9;
+}
+
+.digital .iconholder img {
+    margin: 20px;
+}
+
+.digital .iconholder .btn-dig {
+    background: none;
+    border: 2px solid #0E397B;
+    color: #fff;
+}
+
+/* Section_4 */
